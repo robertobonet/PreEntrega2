@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contacto - Gentileza</title>
+    <style>
+        .contact-form {
+            text-align: center;
+        }
+
+        table {
+            margin: 20px auto; 
+            max-width: 600px; 
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        .form-field button {
+            display: block;
+            margin: 0 auto; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Gentileza">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="reservaciones.html">Reservaciones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <main>
+            <img class="Contacto" src="images/Contacto.png" alt="Contacto">
+
+        <section class="contact-form">
+            <h2>Contacto</h2>
+            <form action="procesar_formulario.php" method="POST">
+                <table>
+                    <tr>
+                        <th><label for="nombre">Nombre:</label></th>
+                        <td><input type="text" id="nombre" name="nombre" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="email">Correo Electrónico:</label></th>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="mensaje">Mensaje:</label></th>
+                        <td><textarea id="mensaje" name="mensaje" rows="4" required></textarea></td>
+                    </tr>
+                </table>
+                <div class="form-field">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Gentileza.com - Alquileres Vacacionales</p>
+    </footer>
+</body>
+</html>
