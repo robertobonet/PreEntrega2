@@ -5,18 +5,13 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.custom-navbar {
-    background-color: #333; 
-    color: #ffffff; 
-}
-
 nav ul {
     list-style-type: none;
     margin: 0;
