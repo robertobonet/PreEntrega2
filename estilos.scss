@@ -1,0 +1,70 @@
+// Variables para colores y fuentes
+$color-primario: #333;
+$color-secundario: #666;
+$fuente-principal: 'Arial', sans-serif;
+$fuente-titulo: 'Helvetica Neue', sans-serif;
+
+// Estilos para el cuerpo de la página
+body {
+  font-family: $fuente-principal;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+// Estilos para el encabezado (navbar)
+header {
+  background-color: $color-primario;
+  color: white;
+}
+
+.navbar-brand img {
+  max-height: 80px;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-nav {
+  li {
+    margin: 0 15px;
+    a {
+      color: white;
+      &:hover {
+        color: $color-secundario;
+      }
+    }
+  }
+}
+
+// Estilos para la sección de introducción
+.intro {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+
+  h1 {
+    font-family: $fuente-titulo;
+    color: $color-primario;
+    font-size: 2.5rem;
+  }
+
+  p {
+    color: $color-secundario;
+    font-size: 1.2rem;
+  }
+}
+
+// Estilos para el pie de página
+footer {
+  font-size: 0.9rem;
+}
+
+// Estilos para las imágenes
+img {
+  max-width: 100%;
+}
+
+// Puedes agregar más estilos según tus necesidades

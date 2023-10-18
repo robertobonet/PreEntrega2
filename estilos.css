@@ -1,104 +1,53 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #343a40;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-main {
-    padding: 20px;
-}
-
-/* Estilos para la sección Gallery (Carrusel) */
-.gallery {
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-.invite-box {
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
-.invite-box {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.destinations {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.destination {
-    width: calc(20% - 10px);
-    margin-bottom: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.destination img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px; 
-}
-
-.destination h3 {
-    font-size: 1.2rem;
-    margin-top: 0;
-}
-
-.destination p {
-    font-size: 1.2rem;
-}
-
-.invite-owners {
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
-.invite-box {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-footer {
+  }
+  
+  header {
     background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
+    color: white;
+  }
+  
+  .navbar-brand img {
+    max-height: 80px;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  .navbar-nav li {
+    margin: 0 15px;
+  }
+  .navbar-nav li a {
+    color: white;
+  }
+  .navbar-nav li a:hover {
+    color: #666;
+  }
+  
+  .intro {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  .intro h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #333;
+    font-size: 2.5rem;
+  }
+  .intro p {
+    color: #666;
+    font-size: 1.2rem;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  
+  img {
+    max-width: 100%;
+  }
