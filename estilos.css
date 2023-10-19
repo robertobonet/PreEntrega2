@@ -51,3 +51,25 @@ body {
   img {
     max-width: 100%;
   }
+/* Añadimos reglas CSS para el logo y las imágenes en dispositivos móviles */
+.mobile-logo {
+  max-width: 100%; /* Hace que el logo sea responsivo en dispositivos móviles */
+}
+
+.desktop-logo {
+  max-width: 350px; /* Ajusta el tamaño del logo para dispositivos de escritorio */
+}
+
+/* Añadimos reglas CSS para los íconos de redes sociales en dispositivos de escritorio */
+.social-icon {
+  color: white; /* Color blanco predeterminado */
+  text-decoration: none; /* Quitar subrayado enlaces */
+  transition: color 0.3s; /* Transición de color en 0.3 segundos */
+  margin-right: 20px; /* Separación entre íconos */
+}
+
+.social-icon:hover {
+  color: gray; /* Cambia a gris al pasar el puntero sobre el ícono */
+}
+
+
