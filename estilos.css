@@ -71,5 +71,16 @@ body {
 .social-icon:hover {
   color: gray; /* Cambia a gris al pasar el puntero sobre el ícono */
 }
+.destination {
+  background-color: #f4f4f4; /* Fondo gris claro */
+  border: 1px solid #ddd; /* Borde del polaroid */
+  padding: 20px; /* Espacio interno */
+  margin: 10px; /* Margen entre polaroids */
+  border-radius: 10px; /* Esquinas redondeadas */
+}
 
+.destination img {
+  max-width: 100%;
+  border-radius: 5px; /* Esquinas redondeadas para la imagen */
+}
 

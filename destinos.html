@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Gentileza - Administración de Alquileres Vacacionales. Encuentra las mejores propiedades para tus vacaciones.">
+        <meta name="keywords" content="alquileres vacacionales, propiedades de vacaciones, destinos turísticos, Gentileza">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="estilos.css">
         <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
@@ -11,7 +13,18 @@
         <link rel="icon" type="image/png" sizes="180x180" href="./images/apple-icon-180x180.png">
         <link rel="icon" type="image/png" sizes="192x192" href="./images/android-icon-192x192.png">
         <link rel="icon" type="image/ico" href="./images/favicon.ico">
+        <script src="https://kit.fontawesome.com/1b5303a6f0.js" crossorigin="anonymous"></script>
         <title>Gentileza - Administración de Alquileres Vacacionales</title>
+        <style>
+            /* Estilos personalizados para el menú */
+            .navbar-dark .navbar-nav .nav-link {
+                color: white; /* Texto blanco en el menú */
+                transition: color 0.3s; /* Transición de color en 0.3 segundos */
+            }
+            .navbar-dark .navbar-nav .nav-link:hover {
+                color: gray; /* Texto gris al pasar el cursor */
+            }
+        </style>
     </head>
 <body>
     <header>
@@ -44,28 +57,48 @@
         <div class="container">
             <h3>Tenemos presencia en los cuatro destinos más importantes de México:</h3>
         </div>
+        <div class="container">
             <div class="row">
                 <div class="destination col-md-3 col-sm-6">
                     <img src="images/Mexico City.jpeg" alt="Destino 1" class="img-fluid">
-                    <h3>Cd. de México</h3>
+                    <h3 style="text-align: center;">Cd. de México</h3>
+                    <p style="text-align: left;">Conocida como CDMX, es una vibrante metrópolis ubicada en el corazón de México. Ofrece una combinación fascinante de historia, cultura y modernidad que atrae a visitantes de todo el mundo.</p>
                 </div>
                 <div class="destination col-md-3 col-sm-6">
                     <img src="images/Tulum.jpg" alt="Destino 2" class="img-fluid">
-                    <h3>Tulum</h3>
+                    <h3 style="text-align: center;">Tulum</h3>
+                    <p style="text-align: left;">Tulum es un paraíso costero en la Riviera Maya, en la región sureste de México. Esta pintoresca ciudad costera es famosa por su belleza natural, playas de arena blanca y aguas cristalinas</p>
                 </div>
                 <div class="destination col-md-3 col-sm-6">
                     <img src="images/Guadalajara.webp" alt="Destino 3" class="img-fluid">
-                    <h3>Guadalajara</h3>
+                    <h3 style="text-align: center;">Guadalajara</h3>
+                    <p style="text-align: left;">Conocida como "La Perla de Occidente", es una vibrante ciudad ubicada en el oeste de México y es la capital del estado de Jalisco. Es una ciudad que combina a la perfección la rica tradición mexicana con la modernidad.</p>
                 </div>
                 <div class="destination col-md-3 col-sm-6">
                     <img src="images/monterrey.jpg" alt="Destino 4" class="img-fluid">
-                    <h3>Monterrey</h3>
+                    <h3 style="text-align: center;">Monterrey</h3>
+                    <p style="text-align: left;">Monterrey, la capital del estado de Nuevo León en el noreste de México, es una ciudad vibrante y moderna con un toque industrial y empresarial.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>        
     </main>
     <footer class="bg-dark text-light text-center py-3">
-        <p>&copy; 2023 Gentileza.com - Alquileres Vacacionales</p>
+        <!-- Botones grandes en versiones de escritorio -->
+        <div class="d-none d-lg-block">
+            <a href="404.html" class="social-icon"><i class="fab fa-facebook fa-2xl mr-2"></i></a>
+            <a href="404.html" class="social-icon"><i class="fab fa-twitter fa-2xl mr-2"></i></a>
+            <a href="404.html" class="social-icon"><i class="fab fa-youtube fa-2xl mr-2"></i></a>
+            <a href="404.html" class="social-icon"><i class="fab fa-instagram fa-2xl mr-2"></i></a>
+        </div>
+        <!-- Botones más pequeños en versiones móviles -->
+        <div class="d-block d-lg-none">
+            <a href="404.html" class="social-icon"><i class="fab fa-facebook fa-lg mr-2"></i></a>
+            <a href="404.html" class="social-icon"><i class="fab fa-twitter fa-lg mr-2"></i></a>
+            <a href="404.html" class="social-icon"><i class="fab fa-youtube fa-lg mr-2"></i></a>
+            <a href="404.html" class="social-icon"><i class="fab fa-instagram fa-lg mr-2"></i></a>
+        </div>
+        <p class="mt-3">&copy; 2023 Gentileza.com - Alquileres Vacacionales</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
