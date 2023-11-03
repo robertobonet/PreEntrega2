@@ -83,4 +83,8 @@ body {
   max-width: 100%;
   border-radius: 5px; /* Esquinas redondeadas para la imagen */
 }
-
+.destination h3 {
+  text-align: center; /* Centra horizontalmente el texto */
+  margin-top: auto; /* Centra verticalmente el texto */
+  margin-bottom: auto; /* Centra verticalmente el texto */
+}
